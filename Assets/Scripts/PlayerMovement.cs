@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -14,6 +15,11 @@ public class PlayerMovement : MonoBehaviour
     private float movX, movY;
 
     private bool dashActivated;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
