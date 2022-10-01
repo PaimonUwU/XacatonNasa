@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
         speed = 6.5f;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(0.5f);
 
         dashActivated = false;
     }
