@@ -22,7 +22,7 @@ public class Asteroid : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
-        desviationSpeed = Random.Range(-10, 10);
+        desviationSpeed = Random.Range(-25, 25);
     }
 
    

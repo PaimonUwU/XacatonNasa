@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     private float movX, movY;
 
     private bool dashActivated;
+    
+    
 
     private void Awake()
     {

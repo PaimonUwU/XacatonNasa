@@ -1,18 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
-public class Generator : MonoBehaviour
+public class GeneratorVertical : MonoBehaviour
 {
-    public static Generator instance;
-
     public GameObject meteorit;
     private bool canThrow;
     private float time;
-    public Transform leftPoint;
-    public Transform rightPoint;
-    private bool isRight;
+    public Transform upPoint;
+    public Transform downPoint;
+    private bool isUp;
     public float speed;
     private Rigidbody2D rb;
     private float limitTime;
@@ -23,46 +20,46 @@ public class Generator : MonoBehaviour
         time = 0;
         limitTime = Random.Range(4, 7);
 
-        
-        leftPoint.SetParent(null);
-        rightPoint.SetParent(null);
+
+        upPoint.SetParent(null);
+        downPoint.SetParent(null);
         rb = GetComponent<Rigidbody2D>();
 
-        isRight = true;
+        isUp = true;
     }
 
     private void Update()
     {
         //Movement Function
-        if (Vector2.Distance(transform.position, rightPoint.position) < 1.5f)
+        if (Vector2.Distance(transform.position, upPoint.position) < 1.5f)
         {
-            isRight = false;
+            isUp = false;
         }
-        else if(Vector2.Distance(transform.position, leftPoint.position) < 1.5f)
+        else if (Vector2.Distance(transform.position, downPoint.position) < 1.5f)
         {
-            isRight = true;
+            isUp = true;
         }
 
-        if (isRight == true)
+        if (isUp == true)
         {
-            rb.velocity = new Vector3(speed * Time.deltaTime * 10, 0);
+            rb.velocity = new Vector3(0,-speed * Time.deltaTime * 10);
         }
         else
         {
-            rb.velocity = new Vector3(-speed * Time.deltaTime * 10, 0);
+            rb.velocity = new Vector3(0,speed * Time.deltaTime * 10);
         }
 
         time += Time.deltaTime;
 
-        if(time > limitTime)
+        if (time > limitTime)
         {
             if (canThrow == true)
             {
                 StartCoroutine(ThrowMeteorit());
             }
         }
-      
-        if(limitTime < 1.5)
+        
+        if (limitTime < 1.5)
         {
             limitTime = 1.5f;
         }
