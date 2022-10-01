@@ -24,8 +24,14 @@ public class PlayerMovement : MonoBehaviour
         float movY = Input.GetAxis("Vertical");
 
         moveInput = new Vector2(movX, movY);
-        
+        moveInput.Normalize();
+
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+             
+        }
     }
+
 
     private void FixedUpdate()
     {
