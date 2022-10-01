@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LifePlayer : MonoBehaviour
 {
@@ -21,7 +22,10 @@ public class LifePlayer : MonoBehaviour
         if(collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Wenas");
+            PlayerMovement.instance.isAlive = false;
             Destroy(gameObject);
         }
     }
+
+   
 }

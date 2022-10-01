@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private float movX, movY;
 
     private bool dashActivated;
+    public bool isAlive;
+    public GameObject textGameOver;
     
     
 
@@ -28,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         dashActivated = false;
+        isAlive = true;
     }
 
    
@@ -36,15 +40,23 @@ public class PlayerMovement : MonoBehaviour
         movX = Input.GetAxis("Horizontal");
         movY = Input.GetAxis("Vertical");
 
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (isAlive != false)
         {
-            if (dashActivated != true)
+            moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
             {
-                StartCoroutine(DashCooldown());
+                if (dashActivated != true)
+                {
+                    StartCoroutine(DashCooldown());
+                }
             }
         }
+        else
+        {
+            StartCoroutine(DeadRespawn());
+        }
+
     }
 
 
@@ -65,5 +77,18 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         dashActivated = false;
+    }
+
+    IEnumerator DeadRespawn()
+    {
+        textGameOver.SetActive(true);
+
+            yield return new WaitForSeconds(1.6f);
+
+            SceneManager.LoadScene("SampleScene");
+        isAlive = true;
+        PlayerScore.instance.km = 0;
+        textGameOver.SetActive(false);
+
     }
 }
