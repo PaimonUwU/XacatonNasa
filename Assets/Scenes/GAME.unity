@@ -3273,7 +3273,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6.5
   isAlive: 0
-  textGameOver: {fileID: 0}
 --- !u!61 &1354632833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3313,7 +3312,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   km: 0
-  textScore: {fileID: 0}
 --- !u!1001 &1358293042
 PrefabInstance:
   m_ObjectHideFlags: 0
