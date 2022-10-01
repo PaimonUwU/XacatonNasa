@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerAdmi : MonoBehaviour
 {
- 
+    public GameObject Panel;
     public void ChangeScene(string SceneName)
     {
         Time.timeScale = 1f;
@@ -15,6 +15,16 @@ public class SceneManagerAdmi : MonoBehaviour
     public void nextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void ControlPanel()
+    {
+        Panel.SetActive(true);
+    }
+
+    public void ControlPanelExit()
+    {
+        Panel.SetActive(false);
     }
 
 
