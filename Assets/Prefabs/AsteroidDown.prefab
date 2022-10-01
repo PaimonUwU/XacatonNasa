@@ -124,6 +124,7 @@ MonoBehaviour:
   isLeft: 0
   isUp: 0
   isDown: 1
+  desviationSpeed: 10
   leftPoint: {fileID: 1263999419172330017}
   rightPoint: {fileID: 1086313169222319195}
 --- !u!1 &6677384312124232869

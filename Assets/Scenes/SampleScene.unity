@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberRandom: 0
-  cooldownRespawn: 3.4
+  cooldownRespawn: 1.8
   resPoints:
   - {fileID: 1079671996}
   - {fileID: 1048406458}

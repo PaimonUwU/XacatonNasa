@@ -9,6 +9,8 @@ public class Asteroid : MonoBehaviour
     public bool isLeft;
     public bool isUp;
     public bool isDown;
+    public float desviationSpeed;
+    private Rigidbody2D rb;
     Vector2 tarjet;
 
     public Transform leftPoint;
@@ -17,6 +19,10 @@ public class Asteroid : MonoBehaviour
     void Start()
     {
         tarjet = PlayerMovement.instance.transform.position;
+
+        rb = GetComponent<Rigidbody2D>();
+
+        desviationSpeed = Random.Range(-50, 50);
     }
 
    
@@ -27,26 +33,30 @@ public class Asteroid : MonoBehaviour
         if (isRight)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
-            Vector2.MoveTowards(transform.position, leftPoint.position, speed * Time.deltaTime);
+            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
             //transform.Translate(tarjet * speed * Time.deltaTime);
         }
 
         if(isLeft)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
+            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
             //transform.Translate(tarjet * speed * Time.deltaTime);
         }
 
         if(isUp)
         {
             transform.Translate(Vector2.up * speed * Time.deltaTime);
+            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
             //transform.Translate(tarjet * speed * Time.deltaTime);
         }
 
         if(isDown)
         {
             transform.Translate((Vector2.down * speed * Time.deltaTime));
+            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
             //transform.Translate(tarjet * speed * Time.deltaTime);
+            rb.rotation += desviationSpeed * Time.deltaTime;
         }
     }
 }
