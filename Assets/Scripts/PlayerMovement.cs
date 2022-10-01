@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
 
     private float movX, movY;
 
-    public Transform dashLeft;
-
     private bool dashActivated;
 
     void Start()
@@ -30,8 +28,7 @@ public class PlayerMovement : MonoBehaviour
         movX = Input.GetAxis("Horizontal");
         movY = Input.GetAxis("Vertical");
 
-        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;//new Vector2(movX, movY);
-                                                                                                         //moveInput.Normalize();
+        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
