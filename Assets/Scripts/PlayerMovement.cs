@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool dashActivated;
     public bool isAlive;
-    public GameObject textGameOver;
+    //public GameObject textGameOver;
     
     
 
@@ -81,14 +81,14 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator DeadRespawn()
     {
-        textGameOver.SetActive(true);
+        //textGameOver.SetActive(true);
 
-            yield return new WaitForSeconds(1.6f);
+        yield return new WaitForSeconds(1.6f);
 
-            SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GAME");
         isAlive = true;
-        PlayerScore.instance.km = 0;
-        textGameOver.SetActive(false);
+        //PlayerScore.instance.km = 0;
+        //textGameOver.SetActive(false);
 
     }
 }

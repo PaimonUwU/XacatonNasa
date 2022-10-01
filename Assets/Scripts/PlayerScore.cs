@@ -10,7 +10,7 @@ public class PlayerScore : MonoBehaviour
 
     private float timer;
     public int km;
-    public TextMeshProUGUI textScore;
+    //public TextMeshProUGUI textScore;
 
     private void Awake()
     {
@@ -27,7 +27,7 @@ public class PlayerScore : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        textScore.text = "KM: " + km;
+        //textScore.text = "KM: " + km;
 
         if(timer > 3 && PlayerMovement.instance.isAlive != false)
         {
