@@ -14,9 +14,6 @@ public class ThrowerAsteroids : MonoBehaviour
   
     void Update()
     {
-        if(Generator.instance.numberRandom == 1)
-        {
-
-        }
+       
     }
 }

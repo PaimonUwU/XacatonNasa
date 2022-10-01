@@ -22,7 +22,7 @@ public class Asteroid : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
-        desviationSpeed = Random.Range(-50, 50);
+        desviationSpeed = Random.Range(-10, 10);
     }
 
    
@@ -33,30 +33,25 @@ public class Asteroid : MonoBehaviour
         if (isRight)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
-            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
-            //transform.Translate(tarjet * speed * Time.deltaTime);
+            rb.rotation = desviationSpeed;
         }
 
         if(isLeft)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
-            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
-            //transform.Translate(tarjet * speed * Time.deltaTime);
+            rb.rotation = desviationSpeed;
         }
 
         if(isUp)
         {
             transform.Translate(Vector2.up * speed * Time.deltaTime);
-            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
-            //transform.Translate(tarjet * speed * Time.deltaTime);
+            rb.rotation = desviationSpeed;
         }
 
         if(isDown)
         {
             transform.Translate((Vector2.down * speed * Time.deltaTime));
-            //Vector2.MoveTowards(transform.position, leftPoint.position, desviationSpeed * Time.deltaTime);
-            //transform.Translate(tarjet * speed * Time.deltaTime);
-            rb.rotation += desviationSpeed * Time.deltaTime;
+            rb.rotation = desviationSpeed;
         }
     }
 }

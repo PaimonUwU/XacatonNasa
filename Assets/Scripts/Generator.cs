@@ -7,77 +7,80 @@ public class Generator : MonoBehaviour
 {
     public static Generator instance;
 
-    public int numberRandom;
-    private bool itRespawned;
-    public float cooldownRespawn;
-    public Transform[] resPoints;
-    public GameObject prefAsteroid;
+    public GameObject meteorit;
+    private bool canThrow;
+    private float time;
+    public Transform leftPoint;
+    public Transform rightPoint;
+    private bool isRight;
+    public float speed;
+    private Rigidbody2D rb;
+    private float limitTime;
 
-   
-    
-    private void Awake()
+    private void Start()
     {
-        instance = this;
+        canThrow = true;
+        time = 0;
+        limitTime = Random.Range(4, 7);
+
+        
+        leftPoint.SetParent(null);
+        rightPoint.SetParent(null);
+        rb = GetComponent<Rigidbody2D>();
+
+        isRight = true;
     }
 
-    void Start()
+    private void Update()
     {
-        numberRandom = Random.Range(0, 6);
-        itRespawned = false;
-    }
+        //Movement Function
+        if (Vector2.Distance(transform.position, rightPoint.position) < 1.5f)
+        {
+            isRight = false;
+        }
+        else if(Vector2.Distance(transform.position, leftPoint.position) < 1.5f)
+        {
+            isRight = true;
+        }
 
-   
-    void Update()
-    {
-       if(itRespawned != true)
-       {
-            Debug.Log(numberRandom);
-            StartCoroutine(CooldownRespawn());
+        if (isRight == true)
+        {
+            rb.velocity = new Vector3(speed * Time.deltaTime * 10, 0);
+        }
+        else
+        {
+            rb.velocity = new Vector3(-speed * Time.deltaTime * 10, 0);
+        }
 
-            if(numberRandom == 0)
+        time += Time.deltaTime;
+
+        if(time > limitTime)
+        {
+            if (canThrow == true)
             {
-                Instantiate(prefAsteroid, resPoints[0].position, Quaternion.identity);
+                StartCoroutine(ThrowMeteorit());
             }
-
-            if(numberRandom == 1)
-            {
-                Instantiate(prefAsteroid, resPoints[1].position, Quaternion.identity);
-            }
-
-            if(numberRandom == 2)
-            {
-                Instantiate(prefAsteroid, resPoints[2].position, Quaternion.identity);
-            }
-
-            if (numberRandom == 3)
-            {
-                Instantiate(prefAsteroid, resPoints[3].position, Quaternion.identity);
-            }
-
-            if (numberRandom == 4)
-            {
-                Instantiate(prefAsteroid, resPoints[4].position, Quaternion.identity);
-            }
-
-            if (numberRandom == 5)
-            {
-                Instantiate(prefAsteroid, resPoints[5].position, Quaternion.identity);
-            }
-
-            if (numberRandom == 6)
-            {
-                Instantiate(prefAsteroid, resPoints[6].position, Quaternion.identity);
-            }
+        }
+        Debug.Log(limitTime);
+        if(limitTime < 1.5)
+        {
+            limitTime = 1.5f;
         }
     }
 
-    IEnumerator CooldownRespawn()
+    IEnumerator ThrowMeteorit()
     {
-        numberRandom = Random.Range(0, 6);
-        itRespawned = true;
+        canThrow = false;
+        GameObject pref = Instantiate(meteorit, transform.position, Quaternion.identity);
+        Destroy(pref, 6.5f);
 
-        yield return new WaitForSeconds(cooldownRespawn);
+        yield return new WaitForSeconds(limitTime);
 
-        itRespawned = false;
+        if (limitTime > 1.5f)
+        {
+            limitTime -= 1.8f;
+        }
+        time = 0f;
+        canThrow = true;
     }
 }
