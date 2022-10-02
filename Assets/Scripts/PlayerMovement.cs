@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isAlive;
     private BoxCollider2D col;
     //public GameObject textGameOver;
+    public Transform deadZone;
 
     [SerializeField] private TrailRenderer tr;  
 
@@ -86,16 +87,22 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator DeadRespawn()
     {
         //textGameOver.SetActive(true);
+        //Vector2.MoveTowards(transform.position, deadZone.position, 10 * Time.deltaTime);
+        transform.Translate(Vector2.down * 3    * Time.deltaTime);
         col.isTrigger = true;
         //rb.gravityScale = Random.Range(-5,5);
-        rb.velocity = new Vector2(Random.Range(-40, 50), Random.Range(-40, 49));
+        //rb.velocity += new Vector2(Random.Range(-100, 100), 150);
+
+        //yield return new WaitForSeconds(0.1f);
+
+        //rb.velocity = new Vector2(rb.velocity.x, 50 * Time.deltaTime);
 
         yield return new WaitForSeconds(3.7f);
 
         SceneManager.LoadScene("GAME");
         isAlive = true;
         col.isTrigger = false;
-        //rb.gravityScale = 0;
+       // rb.gravityScale = 0;
         //PlayerScore.instance.km = 0;
         //textGameOver.SetActive(false);
 

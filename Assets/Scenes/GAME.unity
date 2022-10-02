@@ -793,6 +793,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298226385}
   m_CullTransparentMesh: 1
+--- !u!1 &299975545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 299975546}
+  m_Layer: 0
+  m_Name: DeadZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &299975546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299975545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.16165504, y: -0.17122197, z: -1.9454461}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &381372781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8476123844116513862, guid: 87c2f73e7a9fab84c9472b05de8eb32c, type: 3}
@@ -2277,7 +2307,7 @@ MonoBehaviour:
   audios:
   - {fileID: 8300000, guid: 8c955a0b013616f49965066561a3a296, type: 3}
   - {fileID: 8300000, guid: d3908e64095d07d48bcbd6b29df3d7f2, type: 3}
-  - {fileID: 8300000, guid: e963b9e2d357aed4685c4451d2ebd718, type: 3}
+  - {fileID: 8300000, guid: 93a861a3c09289a409dff10d87e22ed2, type: 3}
 --- !u!4 &1043281121
 Transform:
   m_ObjectHideFlags: 0
@@ -3316,7 +3346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354632829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.28, y: 0, z: -2}
+  m_LocalPosition: {x: -2.92, y: -0.78, z: -2}
   m_LocalScale: {x: 0.57434, y: 0.57434, z: 0.57434}
   m_Children:
   - {fileID: 502469351}
@@ -3359,6 +3389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6.5
   isAlive: 0
+  deadZone: {fileID: 299975546}
   tr: {fileID: 1354632835}
 --- !u!61 &1354632833
 BoxCollider2D:
