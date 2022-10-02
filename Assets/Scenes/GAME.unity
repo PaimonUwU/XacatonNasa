@@ -2833,7 +2833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1123710462
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3828,8 +3828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   demon: {fileID: 1123710461}
   timer: 0
-  bossBegin: 90
-  bossEnd: 150
+  bossBegin: 100
+  bossEnd: 160
   km: 0
   savePlayer: {fileID: 1938648059}
   slider: {fileID: 1832028358}
