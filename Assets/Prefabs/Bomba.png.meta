@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 016e0a70ea062754490e30047891a500
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4376231836577913517
+    second: Bomba_0
+  - first:
+      213: 6476246740781545249
+    second: Bomba_1
+  - first:
+      213: -2222944932518966415
+    second: Bomba_2
+  - first:
+      213: 6664540304907669978
+    second: Bomba_3
+  - first:
+      213: -6865812453280862951
+    second: Bomba_4
+  - first:
+      213: -4695173559581991571
+    second: Bomba_5
+  - first:
+      213: -8637777109357078690
+    second: Bomba_6
+  - first:
+      213: 8605324351589664742
+    second: Bomba_7
+  - first:
+      213: 408002435131684375
+    second: Bomba_8
+  - first:
+      213: 6228162271608952990
+    second: Bomba_9
+  - first:
+      213: -1144718941431251235
+    second: Bomba_10
+  - first:
+      213: 1606841495497350086
+    second: Bomba_11
+  - first:
+      213: -8072347415119706488
+    second: Bomba_12
+  - first:
+      213: 8369646185965538495
+    second: Bomba_13
+  - first:
+      213: -4396033916436239344
+    second: Bomba_14
+  - first:
+      213: -1832516913593039674
+    second: Bomba_15
+  - first:
+      213: 5440977147816317393
+    second: Bomba_16
+  - first:
+      213: 883402780885057171
+    second: Bomba_17
+  - first:
+      213: -5458085473119363454
+    second: Bomba_18
+  - first:
+      213: 7816056561069859336
+    second: Bomba_19
+  - first:
+      213: -4907212340578588896
+    second: Bomba_20
+  - first:
+      213: -896418733164555282
+    second: Bomba_21
+  - first:
+      213: -190489280817297245
+    second: Bomba_22
+  - first:
+      213: -2496950909313066413
+    second: Bomba_23
+  - first:
+      213: 5661639639048682713
+    second: Bomba_24
+  - first:
+      213: -2424402565699043844
+    second: Bomba_25
+  - first:
+      213: -3962355471278383359
+    second: Bomba_26
+  - first:
+      213: -5611339239444700911
+    second: Bomba_27
+  - first:
+      213: 3573200646109519420
+    second: Bomba_28
+  - first:
+      213: 124103249331222441
+    second: Bomba_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bomba_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2849
+        width: 596
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355a406b4508443c0800000000000000
+      internalID: -4376231836577913517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_1
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 2845
+        width: 601
+        height: 568
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127b01e191040e950800000000000000
+      internalID: 6476246740781545249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_2
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2837
+        width: 605
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc3fd8c538621e0800000000000000
+      internalID: -2222944932518966415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_3
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 2833
+        width: 609
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad19b49d8143d7c50800000000000000
+      internalID: 6664540304907669978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_4
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 2833
+        width: 605
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dadbb43fbb7b0a0800000000000000
+      internalID: -6865812453280862951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_5
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 2825
+        width: 588
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d1f4e068467deb0800000000000000
+      internalID: -4695173559581991571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_6
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 2812
+        width: 568
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5755c3eb73702880800000000000000
+      internalID: -8637777109357078690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_7
+      rect:
+        serializedVersion: 2
+        x: 5486
+        y: 2812
+        width: 567
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e74581a7e04c6770800000000000000
+      internalID: 8605324351589664742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_8
+      rect:
+        serializedVersion: 2
+        x: 6298
+        y: 2804
+        width: 556
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716b4859d0489a500800000000000000
+      internalID: 408002435131684375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_9
+      rect:
+        serializedVersion: 2
+        x: 7120
+        y: 2800
+        width: 555
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98ddba7690ee6650800000000000000
+      internalID: 6228162271608952990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_10
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 2073
+        width: 556
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde345010342d10f0800000000000000
+      internalID: -1144718941431251235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_11
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2065
+        width: 572
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb1a75a3d5ac4610800000000000000
+      internalID: 1606841495497350086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_12
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 2065
+        width: 576
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8864f3a8bc249ff80800000000000000
+      internalID: -8072347415119706488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_13
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 2065
+        width: 588
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbccd22acd4f62470800000000000000
+      internalID: 8369646185965538495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_14
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 2081
+        width: 594
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01caf36b1762ef2c0800000000000000
+      internalID: -4396033916436239344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_15
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 2075
+        width: 593
+        height: 566
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4446083979196e0800000000000000
+      internalID: -1832516913593039674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_16
+      rect:
+        serializedVersion: 2
+        x: 5514
+        y: 2085
+        width: 596
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d11c9e63eb328b40800000000000000
+      internalID: 5440977147816317393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_17
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 2057
+        width: 600
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39efe34162a724c00800000000000000
+      internalID: 883402780885057171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_18
+      rect:
+        serializedVersion: 2
+        x: 7386
+        y: 2048
+        width: 604
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e100d2e2cf044b0800000000000000
+      internalID: -5458085473119363454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_19
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1256
+        width: 609
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8022ee2f706387c60800000000000000
+      internalID: 7816056561069859336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_20
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1248
+        width: 576
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0276662306416ebb0800000000000000
+      internalID: -4907212340578588896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_21
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1260
+        width: 564
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee398bf59e74f83f0800000000000000
+      internalID: -896418733164555282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_22
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 1260
+        width: 556
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a88d53220f3b5df0800000000000000
+      internalID: -190489280817297245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_23
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 1248
+        width: 564
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a5ecc906c095dd0800000000000000
+      internalID: -2496950909313066413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_24
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 1231
+        width: 576
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc74cb414f229e40800000000000000
+      internalID: 5661639639048682713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_25
+      rect:
+        serializedVersion: 2
+        x: 5935
+        y: 1223
+        width: 592
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd76f626baca5ed0800000000000000
+      internalID: -2424402565699043844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_26
+      rect:
+        serializedVersion: 2
+        x: 6936
+        y: 1236
+        width: 592
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f50ac31b2e209c0800000000000000
+      internalID: -3962355471278383359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 370
+        width: 597
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11120be11b48022b0800000000000000
+      internalID: -5611339239444700911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_28
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 378
+        width: 600
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3edd865e0f869130800000000000000
+      internalID: 3573200646109519420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomba_29
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 370
+        width: 600
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7fbdb6f37e8b100800000000000000
+      internalID: 124103249331222441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

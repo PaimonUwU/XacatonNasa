@@ -86,7 +86,7 @@ public class LifePlayer : MonoBehaviour
     IEnumerator CooldownSound()
     {
         aniBanana.SetBool("Dead", true);
-
+        SoundManager.instance.BananaAudio(1);
 
         yield return new WaitForSeconds(6);
 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7659474345330663744}
   - component: {fileID: 3091079588990928087}
   - component: {fileID: 442557518395223048}
+  - component: {fileID: 5270526943446390953}
   m_Layer: 0
   m_Name: Laserchido
   m_TagString: Enemy
@@ -110,13 +111,13 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310424111629223683}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8183541, y: 0.15655708}
+  m_Offset: {x: 0.81835365, y: -0.16359654}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -127,8 +128,37 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 23.363293, y: 2.389731}
+  m_Size: {x: 23.363293, y: 0.5362096}
   m_EdgeRadius: 0
+--- !u!60 &5270526943446390953
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310424111629223683}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 25, y: 10.803223}
+    newSize: {x: 25, y: 10.803223}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -7.8144927, y: -0.28534853}
+      - {x: -7.8050156, y: 0.25216612}
+      - {x: -7.857879, y: 0.5700839}
+      - {x: -10.495696, y: 0.069105536}
 --- !u!1 &2527347048921613721
 GameObject:
   m_ObjectHideFlags: 0
