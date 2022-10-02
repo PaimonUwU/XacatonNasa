@@ -5,7 +5,7 @@ using UnityEngine;
 public class TheBurner : MonoBehaviour
 {
     public GameObject laser;
-
+   
     private float timer;
 
     private bool attacking;
@@ -34,6 +34,7 @@ public class TheBurner : MonoBehaviour
 
     IEnumerator ShowLaser()
     {
+       
         attacking = true;
         laser.SetActive(true);
 

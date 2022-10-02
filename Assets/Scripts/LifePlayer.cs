@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LifePlayer : MonoBehaviour
 {
+    public static LifePlayer instance;
+
     private int life;
     private bool inmunity;
+    public bool shakeCam;
     private SpriteRenderer sprite;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -29,6 +37,8 @@ public class LifePlayer : MonoBehaviour
         {
             if (inmunity == false)
             {
+                StartCoroutine(CameraShakes.instance.ShakeCam());
+
                 if(life > 0)
                 {
                     StartCoroutine(CooldownLife());
@@ -45,6 +55,7 @@ public class LifePlayer : MonoBehaviour
 
     IEnumerator CooldownLife()
     {
+        shakeCam = true;
         inmunity = true;
         life--;
         sprite.color = new Color(255, 0, 0);
@@ -53,6 +64,7 @@ public class LifePlayer : MonoBehaviour
 
         inmunity = false;
         sprite.color = new Color(255, 255, 255);
+        shakeCam = true;
     }
 
    
