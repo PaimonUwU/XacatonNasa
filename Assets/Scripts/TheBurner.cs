@@ -9,11 +9,13 @@ public class TheBurner : MonoBehaviour
     private float timer;
 
     private bool attacking;
+    private bool shooting;
 
     void OnEnable()
     {
         timer = 0;
 
+        shooting = false;
         attacking = false;
         laser.SetActive(false);
       
@@ -24,9 +26,13 @@ public class TheBurner : MonoBehaviour
     {
         timer += Time.deltaTime;
        
-        if(timer > 3)
+        if(timer > 2.4f)
         {
-            SoundManager.instance.BananaAudio(3);
+            if(shooting  == false)
+            {
+                StartCoroutine(SoundTrue());
+            }
+            
         }
 
         if (timer > 5)
@@ -38,13 +44,23 @@ public class TheBurner : MonoBehaviour
         }
     }
 
+    IEnumerator SoundTrue()
+    {
+        shooting = true;
+        SoundManager.instance.BananaAudio(3);
+
+        yield return new WaitForSeconds(6);
+
+        shooting = false;
+    }
+
     IEnumerator ShowLaser()
     {
        
         attacking = true;
         laser.SetActive(true);
 
-        yield return new WaitForSeconds(2.8f);
+        yield return new WaitForSeconds(5.8f);
 
         laser.SetActive(false);
         attacking = false;
