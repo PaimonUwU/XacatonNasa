@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D col;
     //public GameObject textGameOver;
     public Transform deadZone;
+    public Transform bombPoint;
+    public GameObject bomb;
 
     [SerializeField] private TrailRenderer tr;  
 
@@ -60,6 +62,11 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(DeadRespawn());
         }
 
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject prefBomb = Instantiate(bomb, bombPoint.position, Quaternion.identity);
+            Destroy(prefBomb, 6f);
+        }
     }
 
 
