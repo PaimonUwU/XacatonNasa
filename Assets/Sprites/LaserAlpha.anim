@@ -356,7 +356,7 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 1.45
+  - time: 3.5166667
     functionName: FixSoundAni
     data: 
     objectReferenceParameter: {fileID: 0}
