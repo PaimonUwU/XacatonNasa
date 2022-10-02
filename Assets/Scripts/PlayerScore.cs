@@ -8,8 +8,10 @@ public class PlayerScore : MonoBehaviour
 {
     public static PlayerScore instance;
 
+    public GameObject demon;
     public float timer;
     public int km;
+    public GameObject savePlayer;
     //public TextMeshProUGUI textScore;
 
     private void Awake()
@@ -27,6 +29,17 @@ public class PlayerScore : MonoBehaviour
     void Update()
     {
         Debug.Log(timer);
+
+       if(timer > 120)
+        {
+            demon.SetActive(true);
+        }
+
+       if(timer > 150)
+        {
+            demon.SetActive(false);
+            savePlayer.SetActive(false);
+        }
 
        
         //textScore.text = "KM: " + km;

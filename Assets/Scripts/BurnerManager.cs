@@ -7,6 +7,7 @@ public class BurnerManager : MonoBehaviour
     private float timer;
     private int randomN;
     private bool selectEnemy;
+    private float limitTimer;
 
     public GameObject[] bourner;
    
@@ -14,20 +15,27 @@ public class BurnerManager : MonoBehaviour
     {
         timer = 0;
         selectEnemy = false;
+        limitTimer = 6;
     }
 
    
     void Update()
     {
+        Debug.Log(limitTimer);
         timer += Time.deltaTime;
+        if(limitTimer <= 1.7f)
+        {
+            limitTimer = 1.7f;
+        }
 
         if(PlayerScore.instance.timer > 15)
         {
-            if (timer > 6)
+            if (timer > limitTimer)
             {
                 if (selectEnemy == false)
                 {
                     randomN = Random.Range(0, 7);
+                    limitTimer -= 0.3f;
                     StartCoroutine(EnemyAppear(randomN));
                 }
             }
@@ -38,6 +46,7 @@ public class BurnerManager : MonoBehaviour
     {
         selectEnemy = true;
         bourner[index].SetActive(true);
+       
 
         yield return new WaitForSeconds(5f);
 
@@ -48,6 +57,4 @@ public class BurnerManager : MonoBehaviour
         selectEnemy = false;
         timer = 0;
     }
-
-    
 }
