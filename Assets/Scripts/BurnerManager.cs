@@ -21,7 +21,7 @@ public class BurnerManager : MonoBehaviour
    
     void Update()
     {
-        Debug.Log(limitTimer);
+        //Debug.Log(limitTimer);
         timer += Time.deltaTime;
         if(limitTimer <= 1.7f)
         {

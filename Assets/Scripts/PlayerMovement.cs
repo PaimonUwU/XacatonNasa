@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool dashActivated;
     public bool isAlive;
+    private BoxCollider2D col;
     //public GameObject textGameOver;
 
     [SerializeField] private TrailRenderer tr;  
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        col = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
         dashActivated = false;
@@ -84,11 +86,16 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator DeadRespawn()
     {
         //textGameOver.SetActive(true);
+        col.isTrigger = true;
+        //rb.gravityScale = Random.Range(-5,5);
+        rb.velocity = new Vector2(Random.Range(-40, 50), Random.Range(-40, 49));
 
-        yield return new WaitForSeconds(1.6f);
+        yield return new WaitForSeconds(3.7f);
 
         SceneManager.LoadScene("GAME");
         isAlive = true;
+        col.isTrigger = false;
+        //rb.gravityScale = 0;
         //PlayerScore.instance.km = 0;
         //textGameOver.SetActive(false);
 

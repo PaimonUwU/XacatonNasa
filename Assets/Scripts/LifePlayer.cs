@@ -11,7 +11,9 @@ public class LifePlayer : MonoBehaviour
     private bool inmunity;
     public bool shakeCam;
     private SpriteRenderer sprite;
-
+    private int ranSound;
+    private bool cooldownSound;
+  
     private void Awake()
     {
         instance = this;
@@ -21,8 +23,10 @@ public class LifePlayer : MonoBehaviour
     {
         life = 6;
         inmunity = false;
+        cooldownSound = false;
 
         sprite = GetComponent<SpriteRenderer>();
+        ranSound = 0;
     }
 
   
@@ -31,30 +35,63 @@ public class LifePlayer : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
             if (inmunity == false)
             {
+               
                 StartCoroutine(CameraShakes.instance.ShakeCam());
 
                 if(life > 0)
                 {
+                    ranSound++;
+
+                    if (ranSound == 1)
+                    {
+                        SoundManager.instance.BananaAudio(1);
+                    }
+
+                    if(ranSound == 2)
+                    {
+                        SoundManager.instance.BananaAudio(2);
+                        ranSound = 0;
+                    }
+                   
+
                     StartCoroutine(CooldownLife());
                 }
                 else
                 {
+                   
                     PlayerMovement.instance.isAlive = false;
-                    Destroy(gameObject);
+
+                    if(cooldownSound == false)
+                    {
+                        StartCoroutine(CooldownSound());
+                        cooldownSound = true;
+                        SoundManager.instance.BananaAudio(0);
+                    }
+                    //Destroy(gameObject);
                 }
+
                 
             }
         }
     }
 
+    IEnumerator CooldownSound()
+    {
+        yield return new WaitForSeconds(2);
+
+        cooldownSound = false;
+    }
+
     IEnumerator CooldownLife()
     {
+       
+
         shakeCam = true;
         inmunity = true;
         life--;

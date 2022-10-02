@@ -30,7 +30,7 @@ public class PlayerScore : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(timer);
+        //Debug.Log(timer);
 
        if(timer > 120)
         {
