@@ -12,6 +12,8 @@ public class PlayerScore : MonoBehaviour
     public float timer;
     public int km;
     public GameObject savePlayer;
+
+    public Slider slider;       
     //public TextMeshProUGUI textScore;
 
     private void Awake()
@@ -47,6 +49,7 @@ public class PlayerScore : MonoBehaviour
         if(PlayerMovement.instance.isAlive == true)
         {
             timer += Time.deltaTime;
+            slider.value = timer;
         }
         else
         {
