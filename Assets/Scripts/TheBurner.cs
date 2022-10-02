@@ -16,14 +16,20 @@ public class TheBurner : MonoBehaviour
 
         attacking = false;
         laser.SetActive(false);
+      
     }
 
     
     void Update()
     {
         timer += Time.deltaTime;
-
+       
         if(timer > 3)
+        {
+            SoundManager.instance.BananaAudio(3);
+        }
+
+        if (timer > 5)
         {
             if (attacking != true)
             {

@@ -22,13 +22,16 @@ public class BurnerManager : MonoBehaviour
     void Update()
     {
         //Debug.Log(limitTimer);
+        //Limita el timer para que no se reduzca mas de el limite
         timer += Time.deltaTime;
         if(limitTimer <= 1.7f)
         {
             limitTimer = 1.7f;
         }
 
-        if(PlayerScore.instance.timer > 15)
+        
+
+        if(PlayerScore.instance.timer > 7)
         {
             if (timer > limitTimer)
             {
