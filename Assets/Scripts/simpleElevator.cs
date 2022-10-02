@@ -7,21 +7,35 @@ public class simpleElevator : MonoBehaviour
     public float speed;
     public GameObject meteorit;
     public float limitTime;
-    float posY;
+    float posX,posY;
+    public bool horizontal;
     void Start()
     {
         posY = transform.position.y;
+        posX = transform.position.x;
         StartCoroutine(ThrowMeteorit());
     }
 
     void Update()
     {
-        transform.position = new Vector2(transform.position.x,posY);
-        if (posY > 4.5f || posY < -4.5f)
+        if (!horizontal)
         {
-            speed *= -1;
+            transform.position = new Vector2(transform.position.x, posY);
+            if (posY > 4.5f || posY < -4.5f)
+            {
+                speed *= -1;
+            }
+            posY += speed * Time.deltaTime;
         }
-        posY += speed*Time.deltaTime;
+        else
+        {
+            transform.position = new Vector2(posX,transform.position.y);
+            if (posX > 8 || posX < -8)
+            {
+                speed *= -1;
+            }
+            posX += speed * Time.deltaTime;
+        }
     }
 
     IEnumerator ThrowMeteorit()
@@ -33,7 +47,7 @@ public class simpleElevator : MonoBehaviour
         Destroy(pref, 15.5f);
             if (limitTime > 1.5f)
             {
-            limitTime -= 2f;
+            limitTime -= 0.2f;
             }
             else
             {
