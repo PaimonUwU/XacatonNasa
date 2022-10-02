@@ -30,7 +30,7 @@ public class BurnerManager : MonoBehaviour
             limitTimer = 1.7f;
         }
 
-        if(PlayerScore.instance.timer > 5)
+        if(PlayerScore.instance.timer > 2.76f)
         {
             if (timer > limitTimer)
             {
