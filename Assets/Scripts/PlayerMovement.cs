@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform bombPoint;
     public GameObject bomb;
 
+    private float bombCooldown;
+
     [SerializeField] private TrailRenderer tr;  
 
     private void Awake()
@@ -35,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
+        bombCooldown = 0;
         dashActivated = false;
         isAlive = true;
     }
@@ -56,17 +60,27 @@ public class PlayerMovement : MonoBehaviour
                     StartCoroutine(DashCooldown());
                 }
             }
+
+            bombCooldown += Time.deltaTime;
+
+            if (bombCooldown >= 2)
+            {
+                bombCooldown = 2;
+
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    GameObject prefBomb = Instantiate(bomb, bombPoint.position, Quaternion.identity);
+                    Destroy(prefBomb, 6f);
+                    bombCooldown = 0;
+                }
+            }
         }
         else
         {
             StartCoroutine(DeadRespawn());
         }
 
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            GameObject prefBomb = Instantiate(bomb, bombPoint.position, Quaternion.identity);
-            Destroy(prefBomb, 6f);
-        }
+      
     }
 
 
