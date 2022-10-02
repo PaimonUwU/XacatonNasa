@@ -26,7 +26,7 @@ public class TheBurner : MonoBehaviour
     {
         timer += Time.deltaTime;
        
-        if(timer > 2.4f)
+        if(timer > 4f)
         {
             if(shooting  == false)
             {
@@ -47,7 +47,7 @@ public class TheBurner : MonoBehaviour
     IEnumerator SoundTrue()
     {
         shooting = true;
-        SoundManager.instance.BananaAudio(3);
+        
 
         yield return new WaitForSeconds(6);
 
@@ -65,5 +65,10 @@ public class TheBurner : MonoBehaviour
         laser.SetActive(false);
         attacking = false;
         timer = 0;
+    }
+
+    public void PlayAudioLaser()
+    {
+        SoundManager.instance.BananaAudio(3);
     }
 }
