@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9b0e35b820b3f0842ba001dae1b88718
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Megabot Five
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a7142873a93ced34ba6a7efeaa119da5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

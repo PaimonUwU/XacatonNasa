@@ -52,7 +52,7 @@ public class LifePlayer : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         inmunity = false;
-        sprite.color = new Color(0, 256, 6);
+        sprite.color = new Color(255, 255, 255);
     }
 
    
