@@ -8,7 +8,7 @@ public class PlayerScore : MonoBehaviour
 {
     public static PlayerScore instance;
 
-    private float timer;
+    public float timer;
     public int km;
     //public TextMeshProUGUI textScore;
 
@@ -26,12 +26,17 @@ public class PlayerScore : MonoBehaviour
     
     void Update()
     {
-        timer += Time.deltaTime;
+        Debug.Log(timer);
+
+       
         //textScore.text = "KM: " + km;
 
-        if(timer > 3 && PlayerMovement.instance.isAlive != false)
+        if(PlayerMovement.instance.isAlive == true)
         {
-            km++;
+            timer += Time.deltaTime;
+        }
+        else
+        {
             timer = 0;
         }
     }

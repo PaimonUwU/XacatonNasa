@@ -21,13 +21,15 @@ public class BurnerManager : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > 6)
+        if(PlayerScore.instance.timer > 15)
         {
-            if (selectEnemy == false)
+            if (timer > 6)
             {
-               
-                randomN = Random.Range(0, 7);
-                StartCoroutine(EnemyAppear(randomN));
+                if (selectEnemy == false)
+                {
+                    randomN = Random.Range(0, 7);
+                    StartCoroutine(EnemyAppear(randomN));
+                }
             }
         }
     }

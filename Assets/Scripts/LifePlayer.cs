@@ -5,10 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LifePlayer : MonoBehaviour
 {
-    
+    private int life;
+    private bool inmunity;
+    private SpriteRenderer sprite;
+
     void Start()
     {
-        
+        life = 6;
+        inmunity = false;
+
+        sprite = GetComponent<SpriteRenderer>();
     }
 
   
@@ -21,10 +27,32 @@ public class LifePlayer : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Wenas");
-            PlayerMovement.instance.isAlive = false;
-            Destroy(gameObject);
+            if (inmunity == false)
+            {
+                if(life > 0)
+                {
+                    StartCoroutine(CooldownLife());
+                }
+                else
+                {
+                    PlayerMovement.instance.isAlive = false;
+                    Destroy(gameObject);
+                }
+                
+            }
         }
+    }
+
+    IEnumerator CooldownLife()
+    {
+        inmunity = true;
+        life--;
+        sprite.color = new Color(255, 0, 0);
+
+        yield return new WaitForSeconds(0.5f);
+
+        inmunity = false;
+        sprite.color = new Color(0, 256, 6);
     }
 
    
