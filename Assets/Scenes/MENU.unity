@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 324807252}
   - component: {fileID: 324807251}
   - component: {fileID: 324807250}
+  - component: {fileID: 324807253}
   m_Layer: 5
   m_Name: EXIT
   m_TagString: Untagged
@@ -300,6 +301,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324807248}
   m_CullTransparentMesh: 1
+--- !u!95 &324807253
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324807248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50989121eb0857d42a7ddec8e8ed5175, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &497761382
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,8 +882,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
-  m_sharedMaterial: {fileID: 1735012561969016265, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c60d126d024528240ab31c05a425b91a, type: 2}
+  m_sharedMaterial: {fileID: 1735012561969016265, guid: c60d126d024528240ab31c05a425b91a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -897,7 +917,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 21
+  m_characterSpacing: 29.85
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -996,8 +1016,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
-  m_sharedMaterial: {fileID: 1735012561969016265, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c60d126d024528240ab31c05a425b91a, type: 2}
+  m_sharedMaterial: {fileID: 1735012561969016265, guid: c60d126d024528240ab31c05a425b91a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1031,7 +1051,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 21
+  m_characterSpacing: 29.85
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1565,7 +1585,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: f3995c1962450b24db940c7da4dae315, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5660378, g: 0.36667854, b: 0.36667854, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1620,8 +1640,9 @@ GameObject:
   - component: {fileID: 1839703331}
   - component: {fileID: 1839703330}
   - component: {fileID: 1839703329}
+  - component: {fileID: 1839703332}
   m_Layer: 5
-  m_Name: CONTROLS
+  m_Name: CONTOLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1741,6 +1762,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839703327}
   m_CullTransparentMesh: 1
+--- !u!95 &1839703332
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839703327}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 941330f4eba71d04890dc7bc4eee0204, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1858771889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,7 +1809,7 @@ RectTransform:
   m_GameObject: {fileID: 1858771889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0841, y: 1.0841, z: 1.0841}
   m_Children: []
   m_Father: {fileID: 801860116}
   m_RootOrder: 3
@@ -1799,7 +1839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Platenario
+  m_text: Platanario
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7c81c2c4fbbabbb48bf8748c3d8081a8, type: 2}
   m_sharedMaterial: {fileID: 1735012561969016265, guid: 7c81c2c4fbbabbb48bf8748c3d8081a8, type: 2}
@@ -1809,7 +1849,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 2973499647
-  m_fontColor: {r: 1, g: 0, b: 0.23550749, a: 0.69411767}
+  m_fontColor: {r: 1, g: 0, b: 0.23529434, a: 0.69411767}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1826,18 +1866,18 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 154.23
+  m_fontSize: 130.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 154.23
-  m_fontStyle: 1
+  m_fontStyle: 17
   m_HorizontalAlignment: 16
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
+  m_characterSpacing: 20.3
+  m_wordSpacing: 8.88
   m_lineSpacing: 0
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -2056,8 +2096,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: controls
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
-  m_sharedMaterial: {fileID: 1735012561969016265, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c60d126d024528240ab31c05a425b91a, type: 2}
+  m_sharedMaterial: {fileID: 1735012561969016265, guid: c60d126d024528240ab31c05a425b91a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2081,7 +2121,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 99.35
+  m_fontSize: 91.45
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2091,7 +2131,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 21
+  m_characterSpacing: 29.85
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2143,6 +2183,7 @@ GameObject:
   - component: {fileID: 2073318030}
   - component: {fileID: 2073318029}
   - component: {fileID: 2073318028}
+  - component: {fileID: 2073318031}
   m_Layer: 5
   m_Name: PLAY
   m_TagString: Untagged
@@ -2264,3 +2305,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073318026}
   m_CullTransparentMesh: 1
+--- !u!95 &2073318031
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073318026}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f92c1a53c5d5c544a5ea6714c595664, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
