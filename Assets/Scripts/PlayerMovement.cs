@@ -26,7 +26,8 @@ public class PlayerMovement : MonoBehaviour
 
     private float bombCooldown;
 
-    [SerializeField] private TrailRenderer tr;  
+    [SerializeField] private TrailRenderer tr;
+
 
     private void Awake()
     {
