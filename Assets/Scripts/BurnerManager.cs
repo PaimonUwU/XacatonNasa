@@ -22,13 +22,15 @@ public class BurnerManager : MonoBehaviour
     void Update()
     {
         //Debug.Log(limitTimer);
+        //Limita el timer para que no se reduzca mas de el limite
         timer += Time.deltaTime;
+
         if(limitTimer <= 1.7f)
         {
             limitTimer = 1.7f;
         }
 
-        if(PlayerScore.instance.timer > 15)
+        if(PlayerScore.instance.timer > 5)
         {
             if (timer > limitTimer)
             {
@@ -47,12 +49,11 @@ public class BurnerManager : MonoBehaviour
         selectEnemy = true;
         bourner[index].SetActive(true);
        
-
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(9f);
 
         bourner[index].SetActive(false);
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
 
         selectEnemy = false;
         timer = 0;
