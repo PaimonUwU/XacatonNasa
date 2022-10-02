@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
     private bool dashActivated;
     public bool isAlive;
     //public GameObject textGameOver;
-    
-    
+
+    [SerializeField] private TrailRenderer tr;  
 
     private void Awake()
     {
@@ -69,14 +69,16 @@ public class PlayerMovement : MonoBehaviour
     {
         speed = 15.5f;
         dashActivated = true;
-
+        //tr.emitting= true;  
         yield return new WaitForSeconds(0.3f);
 
         speed = 6.5f;
+        //tr.emitting = false;
 
         yield return new WaitForSeconds(0.5f);
 
         dashActivated = false;
+       
     }
 
     IEnumerator DeadRespawn()
