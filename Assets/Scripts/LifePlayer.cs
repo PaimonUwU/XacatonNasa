@@ -13,6 +13,7 @@ public class LifePlayer : MonoBehaviour
     private SpriteRenderer sprite;
     private int ranSound;
     private bool cooldownSound;
+    private Animator aniBanana;
   
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class LifePlayer : MonoBehaviour
         cooldownSound = false;
 
         sprite = GetComponent<SpriteRenderer>();
+        aniBanana = GetComponent<Animator>();
         ranSound = 0;
     }
 
@@ -83,9 +85,13 @@ public class LifePlayer : MonoBehaviour
 
     IEnumerator CooldownSound()
     {
-        yield return new WaitForSeconds(2);
+        aniBanana.SetBool("Dead", true);
+
+
+        yield return new WaitForSeconds(6);
 
         cooldownSound = false;
+        aniBanana.SetBool("Dead", false);
     }
 
     IEnumerator CooldownLife()
