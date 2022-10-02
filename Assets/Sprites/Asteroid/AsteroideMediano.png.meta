@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: fd3134030065e1243be3a17c63010c91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -553959582565960127
+    second: AsteroideMediano_0
+  - first:
+      213: -9107010151016774365
+    second: AsteroideMediano_1
+  - first:
+      213: -4232708207038157532
+    second: AsteroideMediano_2
+  - first:
+      213: -1962861179318186654
+    second: AsteroideMediano_3
+  - first:
+      213: -951728186114505085
+    second: AsteroideMediano_4
+  - first:
+      213: -2578653617389601754
+    second: AsteroideMediano_5
+  - first:
+      213: 3302900606254580288
+    second: AsteroideMediano_6
+  - first:
+      213: -1185665520893842942
+    second: AsteroideMediano_7
+  - first:
+      213: 3275246157300538484
+    second: AsteroideMediano_8
+  - first:
+      213: 6062112701191097845
+    second: AsteroideMediano_9
+  - first:
+      213: 8946949114960790411
+    second: AsteroideMediano_10
+  - first:
+      213: -7064552673685131172
+    second: AsteroideMediano_11
+  - first:
+      213: 4482433393185055608
+    second: AsteroideMediano_12
+  - first:
+      213: 8755177963460479519
+    second: AsteroideMediano_13
+  - first:
+      213: 6045296414986864656
+    second: AsteroideMediano_14
+  - first:
+      213: -5145962079159409948
+    second: AsteroideMediano_15
+  - first:
+      213: -8381660675709242422
+    second: AsteroideMediano_16
+  - first:
+      213: 8173090341692329189
+    second: AsteroideMediano_17
+  - first:
+      213: -1678412561419488542
+    second: AsteroideMediano_18
+  - first:
+      213: -2533615729656397180
+    second: AsteroideMediano_19
+  - first:
+      213: 7975549995521498548
+    second: AsteroideMediano_20
+  - first:
+      213: -8312789185671057959
+    second: AsteroideMediano_21
+  - first:
+      213: 4354714355490962759
+    second: AsteroideMediano_22
+  - first:
+      213: 1951799948437235553
+    second: AsteroideMediano_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AsteroideMediano_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1952
+        width: 410
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1467b35d1b0ff48f0800000000000000
+      internalID: -553959582565960127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_1
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1938
+        width: 400
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325c4c6c4866d9180800000000000000
+      internalID: -9107010151016774365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_2
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1931
+        width: 390
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d2c91cf466245c0800000000000000
+      internalID: -4232708207038157532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_3
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 1927
+        width: 367
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc557382482c4e0800000000000000
+      internalID: -1962861179318186654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_4
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1923
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860be7d148cac2f0800000000000000
+      internalID: -951728186114505085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_5
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 1921
+        width: 326
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c77b08238c63cd0800000000000000
+      internalID: -2578653617389601754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_6
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1929
+        width: 334
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0420a341a9246dd20800000000000000
+      internalID: 3302900606254580288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_7
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 1938
+        width: 349
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aa1bc9d7bab8fe0800000000000000
+      internalID: -1185665520893842942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1433
+        width: 367
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9cdde603047d20800000000000000
+      internalID: 3275246157300538484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_9
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1440
+        width: 385
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd01ee1263f02450800000000000000
+      internalID: 6062112701191097845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_10
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1448
+        width: 400
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83cbbc21d2f92c70800000000000000
+      internalID: 8946949114960790411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_11
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1445
+        width: 406
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5036fbd5caa5fd90800000000000000
+      internalID: -7064552673685131172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_12
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1451
+        width: 409
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873e4221c6dc43e30800000000000000
+      internalID: 4482433393185055608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_13
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1454
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ac36988f3a08970800000000000000
+      internalID: 8755177963460479519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_14
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 1459
+        width: 388
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0180c316f0535e350800000000000000
+      internalID: 6045296414986864656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_15
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 1446
+        width: 367
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2a214e0ced598b0800000000000000
+      internalID: -5145962079159409948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 852
+        width: 347
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac37d7cf50c5eab80800000000000000
+      internalID: -8381660675709242422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 840
+        width: 326
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4fb5ec56ac6170800000000000000
+      internalID: 8173090341692329189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_18
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 850
+        width: 333
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2b9020ba415b8e0800000000000000
+      internalID: -1678412561419488542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_19
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 858
+        width: 349
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4820d74eae9c6dcd0800000000000000
+      internalID: -2533615729656397180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_20
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 871
+        width: 366
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd5d63f678deae60800000000000000
+      internalID: 7975549995521498548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_21
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 873
+        width: 384
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd2e57574a03ac80800000000000000
+      internalID: -8312789185671057959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_22
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 892
+        width: 400
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d355152ad0f6c30800000000000000
+      internalID: 4354714355490962759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsteroideMediano_23
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 903
+        width: 404
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1672a3746bf261b10800000000000000
+      internalID: 1951799948437235553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 292d23f2d46db9f4a995a484d8a2229d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 720209439297084209
+    second: Meteoritos 1_0
+  - first:
+      213: 2489156904285448778
+    second: Meteoritos 1_1
+  - first:
+      213: -2585309941413842170
+    second: Meteoritos 1_2
+  - first:
+      213: 6149652881194073904
+    second: Meteoritos 1_3
+  - first:
+      213: 1683210455424985843
+    second: Meteoritos 1_4
+  - first:
+      213: 3304740986970099977
+    second: Meteoritos 1_5
+  - first:
+      213: -1497489023957751516
+    second: Meteoritos 1_6
+  - first:
+      213: -6814576042951998941
+    second: Meteoritos 1_7
+  - first:
+      213: -4738477524154791222
+    second: Meteoritos 1_8
+  - first:
+      213: -5714464650823977678
+    second: Meteoritos 1_9
+  - first:
+      213: 3384945187464089309
+    second: Meteoritos 1_10
+  - first:
+      213: 4689750457620712788
+    second: Meteoritos 1_11
+  - first:
+      213: 1919431221700909566
+    second: Meteoritos 1_12
+  - first:
+      213: -4110070098727534523
+    second: Meteoritos 1_13
+  - first:
+      213: -3444274166998558042
+    second: Meteoritos 1_14
+  - first:
+      213: -8523156717478516299
+    second: Meteoritos 1_15
+  - first:
+      213: 4888480562339280250
+    second: Meteoritos 1_16
+  - first:
+      213: -1191580979364952529
+    second: Meteoritos 1_17
+  - first:
+      213: 5746173942080785944
+    second: Meteoritos 1_18
+  - first:
+      213: -738245743933998225
+    second: Meteoritos 1_19
+  - first:
+      213: 8503957714890764035
+    second: Meteoritos 1_20
+  - first:
+      213: -8753911663202070543
+    second: Meteoritos 1_21
+  - first:
+      213: 8113939141257673976
+    second: Meteoritos 1_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Meteoritos 1_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1409
+        width: 295
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b9f215ba2bef900800000000000000
+      internalID: 720209439297084209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1412
+        width: 300
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a252e24034b8220800000000000000
+      internalID: 2489156904285448778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1406
+        width: 299
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603fdbb4e422f1cd0800000000000000
+      internalID: -2585309941413842170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_3
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1397
+        width: 285
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fb78396b4f75550800000000000000
+      internalID: 6149652881194073904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_4
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1392
+        width: 281
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa64ddbdf6fb5710800000000000000
+      internalID: 1683210455424985843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_5
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1386
+        width: 276
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901d60b1b6cccdd20800000000000000
+      internalID: 3304740986970099977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1056
+        width: 275
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429a3ffaaa9d73be0800000000000000
+      internalID: -1497489023957751516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1056
+        width: 285
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32285f0b133cd61a0800000000000000
+      internalID: -6814576042951998941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_8
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1055
+        width: 293
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acac49c1ccb8d3eb0800000000000000
+      internalID: -4738477524154791222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_9
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1056
+        width: 299
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2353c163da422b0b0800000000000000
+      internalID: -5714464650823977678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_10
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1064
+        width: 308
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde07fab6bdb9fe20800000000000000
+      internalID: 3384945187464089309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_11
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1066
+        width: 305
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d45bf9137551140800000000000000
+      internalID: 4689750457620712788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 723
+        width: 295
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9d64cc68033aa10800000000000000
+      internalID: 1919431221700909566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_13
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 712
+        width: 300
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400463750916f6c0800000000000000
+      internalID: -4110070098727534523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_14
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 712
+        width: 299
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa1ff6c4ea7330d0800000000000000
+      internalID: -3444274166998558042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_15
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 702
+        width: 279
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b965b18f1aa7b980800000000000000
+      internalID: -8523156717478516299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_16
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 701
+        width: 276
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7572a1db2f57d340800000000000000
+      internalID: 4888480562339280250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_17
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 697
+        width: 277
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2607db9967a67fe0800000000000000
+      internalID: -1191580979364952529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_18
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 694
+        width: 285
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec45b71c28ebf40800000000000000
+      internalID: 5746173942080785944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_19
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 367
+        width: 295
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bbed3486931c5f0800000000000000
+      internalID: -738245743933998225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 363
+        width: 302
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fa10d5c70240670800000000000000
+      internalID: 8503957714890764035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_21
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 366
+        width: 311
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff01b7f8bbd38680800000000000000
+      internalID: -8753911663202070543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteoritos 1_22
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 377
+        width: 308
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc3dc3d8a08a9070800000000000000
+      internalID: 8113939141257673976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

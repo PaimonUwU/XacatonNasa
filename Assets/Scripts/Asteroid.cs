@@ -11,8 +11,11 @@ public class Asteroid : MonoBehaviour
     public bool isDown;
     public float desviationSpeed;
     private Rigidbody2D rb;
+   
+
     Vector2 tarjet;
 
+    private float tam;
     public Transform leftPoint;
     public Transform rightPoint;
 
@@ -22,7 +25,10 @@ public class Asteroid : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
 
+        speed = Random.Range(3.2f, 5.4f);
+        tam = Random.Range(0.5f, 0.9f);
         desviationSpeed = Random.Range(-25, 25);
+        transform.localScale = new Vector3(tam, tam, tam);
     }
 
    
