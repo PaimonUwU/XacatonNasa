@@ -2826,6 +2826,7 @@ GameObject:
   - component: {fileID: 1123710463}
   - component: {fileID: 1123710462}
   - component: {fileID: 1123710464}
+  - component: {fileID: 1123710465}
   m_Layer: 0
   m_Name: TrianguloDead
   m_TagString: Untagged
@@ -2917,6 +2918,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1123710465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123710461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a50e12d34778284a86755d87f64fdc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 166217601}
 --- !u!1 &1135728824
 GameObject:
   m_ObjectHideFlags: 0
