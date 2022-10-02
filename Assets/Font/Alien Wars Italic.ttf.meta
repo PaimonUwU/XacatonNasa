@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9c60072e42a61854580689a4473aa7ff
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Alien Wars
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 42a4ea0827c3a0246b3c2ff0a6755361, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
