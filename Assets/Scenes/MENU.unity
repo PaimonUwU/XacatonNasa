@@ -1752,6 +1752,7 @@ GameObject:
   - component: {fileID: 1858771890}
   - component: {fileID: 1858771892}
   - component: {fileID: 1858771891}
+  - component: {fileID: 1858771893}
   m_Layer: 5
   m_Name: TITLE
   m_TagString: Untagged
@@ -1800,15 +1801,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Platenario
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
-  m_sharedMaterial: {fileID: 1735012561969016265, guid: 60ac22a44c45d0043871300eaac098e4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7c81c2c4fbbabbb48bf8748c3d8081a8, type: 2}
+  m_sharedMaterial: {fileID: 1735012561969016265, guid: 7c81c2c4fbbabbb48bf8748c3d8081a8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3728474367
-  m_fontColor: {r: 1, g: 0, b: 0.23550749, a: 0.87058824}
+    rgba: 2973499647
+  m_fontColor: {r: 1, g: 0, b: 0.23550749, a: 0.69411767}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1832,7 +1833,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 154.23
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 16
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1875,6 +1876,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858771889}
   m_CullTransparentMesh: 1
+--- !u!95 &1858771893
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858771889}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15b0cbc362dd2974c968b9e9c9db1036, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1880827098
 GameObject:
   m_ObjectHideFlags: 0
