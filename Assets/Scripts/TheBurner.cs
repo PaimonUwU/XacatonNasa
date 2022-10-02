@@ -10,7 +10,7 @@ public class TheBurner : MonoBehaviour
 
     private bool attacking;
 
-    void Start()
+    void OnEnable()
     {
         timer = 0;
 
