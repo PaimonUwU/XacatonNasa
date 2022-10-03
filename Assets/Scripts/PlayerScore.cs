@@ -21,6 +21,8 @@ public class PlayerScore : MonoBehaviour
     public Volume vol;
     DepthOfField dof;
     public GameObject redScreen;
+    public GameObject songLevel;
+    public GameObject songBoss;
 
     private void Awake()
     {
@@ -39,12 +41,14 @@ public class PlayerScore : MonoBehaviour
         //Debug.Log(timer);
         if (vol.profile.TryGet<DepthOfField>(out dof))
         {
-            dof.focalLength.value = bossEnd-timer;
+            dof.focalLength.value = bossBegin-timer;
         }
 
         if(timer > bossBegin - 3)
         {
             redScreen.SetActive(true);
+            songLevel.SetActive(false);
+            songBoss.SetActive(true);
         }
 
         if (timer > bossBegin)

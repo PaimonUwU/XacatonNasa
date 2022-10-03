@@ -64,9 +64,9 @@ public class PlayerMovement : MonoBehaviour
 
             bombCooldown += Time.deltaTime;
 
-            if (bombCooldown >= 2)
+            if (bombCooldown >= 35)
             {
-                bombCooldown = 2;
+                bombCooldown = 35;
 
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
