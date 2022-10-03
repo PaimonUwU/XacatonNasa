@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7b1e67fdb109b724ca6e453e751b1a60
+guid: c3d0fc71b287a3d4bac2ac1732a5c522
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9161072682681619425
-    second: BarraVida_0
+      213: -2654701878696232959
+    second: Iconos2_0
+  - first:
+      213: -5071325897914664096
+    second: Iconos2_1
+  - first:
+      213: -1271618502344135596
+    second: Iconos2_2
+  - first:
+      213: -213475408188033741
+    second: Iconos2_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,22 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarraVida_0
+      name: Iconos2_0
       rect:
         serializedVersion: 2
-        x: 359
-        y: 332
-        width: 1296
-        height: 200
+        x: 25
+        y: 0
+        width: 243
+        height: 523
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3d5c4411ba22f70800000000000000
-      internalID: 9161072682681619425
+      spriteID: 108bfbfd4ba982bd0800000000000000
+      internalID: -2654701878696232959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos2_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 135
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bbe8207f70f99b0800000000000000
+      internalID: -5071325897914664096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos2_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 202.25
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca6fd95bd4a5ee0800000000000000
+      internalID: -1271618502344135596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Iconos2_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0
+        width: 202.25
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335bbae4f35990df0800000000000000
+      internalID: -213475408188033741
       vertices: []
       indices: 
       edges: []

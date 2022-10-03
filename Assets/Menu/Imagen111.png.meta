@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 7b1e67fdb109b724ca6e453e751b1a60
+guid: 0bb953a79ed332540a212a038cb12f2c
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 9161072682681619425
-    second: BarraVida_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,28 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: BarraVida_0
-      rect:
-        serializedVersion: 2
-        x: 359
-        y: 332
-        width: 1296
-        height: 200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e3d5c4411ba22f70800000000000000
-      internalID: 9161072682681619425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
