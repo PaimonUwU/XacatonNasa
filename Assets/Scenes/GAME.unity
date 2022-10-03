@@ -555,17 +555,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91793776}
-  m_LocalRotation: {x: -0, y: -0, z: 0.001920474, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0.24831054, w: 0.96868056}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3644432, y: 0.9545473, z: 0.8869197}
+  m_LocalScale: {x: 0.68997484, y: 0.8270083, z: 0.73189497}
   m_Children: []
   m_Father: {fileID: 11888234}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.22}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -28.755}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -51.599976, y: -15.099976}
-  m_SizeDelta: {x: 211.632, y: 170.308}
+  m_AnchoredPosition: {x: 92, y: -0}
+  m_SizeDelta: {x: 109, y: 153}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &91793778
 MonoBehaviour:
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 042924fd21a9ca54dbcfb5f75a8bf9a1, type: 3}
+  m_Sprite: {fileID: 313426297322573379, guid: 3abe2ece656358a40bc5e9eb13131db2, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4685,17 +4685,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404097116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.22919752, w: 0.97337997}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.0622797, y: 1.6472342, z: 1.6070578}
+  m_LocalScale: {x: 0.90062094, y: 0.90132654, z: 0.87934303}
   m_Children: []
   m_Father: {fileID: 11888234}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -26.5}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -59.400024, y: -13.099976}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 78, y: 10}
+  m_SizeDelta: {x: 109, y: 153}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1404097118
 MonoBehaviour:
@@ -4710,14 +4710,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.49019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.1764706}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 042924fd21a9ca54dbcfb5f75a8bf9a1, type: 3}
+  m_Sprite: {fileID: 313426297322573379, guid: 3abe2ece656358a40bc5e9eb13131db2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
