@@ -23,6 +23,7 @@ public class PlayerScore : MonoBehaviour
     public GameObject redScreen;
     public GameObject songLevel;
     public GameObject songBoss;
+    public GameObject deactiveFog;
     
 
     private void Awake()
@@ -69,6 +70,7 @@ public class PlayerScore : MonoBehaviour
         {
             //demon.SetActive(false);
             savePlayer.SetActive(false);
+            deactiveFog.SetActive(false);
         }
 
        

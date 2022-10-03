@@ -849,6 +849,11 @@ Transform:
   m_Father: {fileID: 1279124673}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &142419930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1942682634177167980, guid: 445c06830f29d94478450f21ac80c5db, type: 3}
+  m_PrefabInstance: {fileID: 107384294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &146437462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8476123844116513862, guid: 87c2f73e7a9fab84c9472b05de8eb32c, type: 3}
@@ -4545,7 +4550,7 @@ MonoBehaviour:
   demon: {fileID: 1123710461}
   timer: 0
   bossBegin: 20
-  bossEnd: 50
+  bossEnd: 30
   km: 0
   savePlayer: {fileID: 1938648059}
   slider: {fileID: 1832028358}
@@ -4553,6 +4558,7 @@ MonoBehaviour:
   redScreen: {fileID: 82917146}
   songLevel: {fileID: 1272906579}
   songBoss: {fileID: 2057666776}
+  deactiveFog: {fileID: 142419930}
 --- !u!96 &1354632835
 TrailRenderer:
   serializedVersion: 2
