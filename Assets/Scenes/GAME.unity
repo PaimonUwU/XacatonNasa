@@ -4704,8 +4704,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   demon: {fileID: 1123710461}
   timer: 0
-  bossBegin: 100
-  bossEnd: 150
+  bossBegin: 80
+  bossEnd: 120
   km: 0
   savePlayer: {fileID: 1938648059}
   slider: {fileID: 1832028358}
