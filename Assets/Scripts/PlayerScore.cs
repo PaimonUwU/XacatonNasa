@@ -67,7 +67,7 @@ public class PlayerScore : MonoBehaviour
 
        if(timer > bossEnd)
         {
-            demon.SetActive(false);
+            //demon.SetActive(false);
             savePlayer.SetActive(false);
         }
 

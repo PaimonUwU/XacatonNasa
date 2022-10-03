@@ -942,6 +942,7 @@ GameObject:
   - component: {fileID: 166217602}
   - component: {fileID: 166217605}
   - component: {fileID: 166217604}
+  - component: {fileID: 166217606}
   m_Layer: 0
   m_Name: Triangulo
   m_TagString: Enemy
@@ -1061,6 +1062,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &166217606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166217601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f318244f09a54bb91f376790d7eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &242932067
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,8 +4467,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   demon: {fileID: 1123710461}
   timer: 0
-  bossBegin: 100
-  bossEnd: 140
+  bossBegin: 20
+  bossEnd: 30
   km: 0
   savePlayer: {fileID: 1938648059}
   slider: {fileID: 1832028358}
