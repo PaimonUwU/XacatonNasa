@@ -20,6 +20,7 @@ public class PlayerScore : MonoBehaviour
 
     public Volume vol;
     DepthOfField dof;
+    public GameObject redScreen;
 
     private void Awake()
     {
@@ -41,9 +42,20 @@ public class PlayerScore : MonoBehaviour
             dof.focalLength.value = bossEnd-timer;
         }
 
+        if(timer > bossBegin - 3)
+        {
+            redScreen.SetActive(true);
+        }
+
         if (timer > bossBegin)
         {
+            
             demon.SetActive(true);
+        }
+
+        if(timer > bossBegin + 6)
+        {
+            redScreen.SetActive(false);
         }
 
        if(timer > bossEnd)
