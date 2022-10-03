@@ -23,6 +23,7 @@ public class PlayerScore : MonoBehaviour
     public GameObject redScreen;
     public GameObject songLevel;
     public GameObject songBoss;
+    
 
     private void Awake()
     {
@@ -33,6 +34,8 @@ public class PlayerScore : MonoBehaviour
     {
         timer = 0;
         km = 0;
+
+        
     }
 
     

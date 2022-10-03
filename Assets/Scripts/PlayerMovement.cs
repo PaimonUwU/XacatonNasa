@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEditor.Rendering;
 using UnityEngine;
@@ -24,7 +25,9 @@ public class PlayerMovement : MonoBehaviour
     public Transform bombPoint;
     public GameObject bomb;
 
+    public TextMeshProUGUI textBomb;
     private float bombCooldown;
+    public GameObject[] iconSprites;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -39,9 +42,10 @@ public class PlayerMovement : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
-        bombCooldown = 0;
+        bombCooldown = 25;
         dashActivated = false;
         isAlive = true;
+        textBomb.text =  bombCooldown.ToString("00") + "s";
     }
 
    
@@ -49,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
     {
         movX = Input.GetAxis("Horizontal");
         movY = Input.GetAxis("Vertical");
+        textBomb.text = bombCooldown.ToString("0") + "s";
 
         if (isAlive != false)
         {
@@ -62,18 +67,64 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            bombCooldown += Time.deltaTime;
+            bombCooldown -= Time.deltaTime;
 
-            if (bombCooldown >= 35)
+            if (bombCooldown <= 0)
             {
-                bombCooldown = 35;
-
+                bombCooldown = 0;
+                textBomb.text = "Boom!";
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     GameObject prefBomb = Instantiate(bomb, bombPoint.position, Quaternion.identity);
                     Destroy(prefBomb, 6f);
-                    bombCooldown = 0;
+                    bombCooldown = 25;
+
                 }
+            }
+
+            if(bombCooldown < 29)
+            {
+                iconSprites[0].SetActive(true);
+            }
+            else
+            {
+                iconSprites[0].SetActive(false);
+            }
+
+            if(bombCooldown < 22)
+            {
+                iconSprites[1].SetActive(true);
+            }
+            else
+            {
+                iconSprites[1].SetActive(false);
+            }
+
+            if (bombCooldown < 15)
+            {
+                iconSprites[2].SetActive(true);
+            }
+            else
+            {
+                iconSprites[2].SetActive(false);
+            }
+
+            if (bombCooldown < 8)
+            {
+                iconSprites[3].SetActive(true);
+            }
+            else
+            {
+                iconSprites[3].SetActive(false);
+            }
+
+            if (bombCooldown == 0)
+            {
+                iconSprites[4].SetActive(true);
+            }
+            else
+            {
+                iconSprites[4].SetActive(false);
             }
         }
         else
