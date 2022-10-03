@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
-        bombCooldown = 25;
+        bombCooldown = 35;
         dashActivated = false;
         isAlive = true;
         textBomb.text =  bombCooldown.ToString("00") + "s";
