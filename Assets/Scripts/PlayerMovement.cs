@@ -151,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator DashCooldown()
     {
+        SoundManager.instance.BananaAudio(6);
         speed = 15.5f;
         dashActivated = true;
         tr.emitting= true;  
