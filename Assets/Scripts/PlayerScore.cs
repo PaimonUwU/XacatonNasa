@@ -79,7 +79,7 @@ public class PlayerScore : MonoBehaviour
         if(PlayerMovement.instance.isAlive == true)
         {
             timer += Time.deltaTime;
-            slider.value = timer;
+            slider.value = bossEnd;
         }
         else
         {
