@@ -42,10 +42,10 @@ public class PlayerMovement : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
 
-        bombCooldown = 35;
+        bombCooldown = 28;
         dashActivated = false;
         isAlive = true;
-        textBomb.text =  bombCooldown.ToString("00") + "s";
+        textBomb.text =  bombCooldown.ToString("00");
     }
 
    
@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
     {
         movX = Input.GetAxis("Horizontal");
         movY = Input.GetAxis("Vertical");
-        textBomb.text = bombCooldown.ToString("0") + "s";
+        textBomb.text = bombCooldown.ToString("0");
 
         if (isAlive != false)
         {

@@ -7,7 +7,7 @@ public class LifePlayer : MonoBehaviour
 {
     public static LifePlayer instance;
 
-    private int life;
+    public int life;
     private bool inmunity;
     public bool shakeCam;
     private SpriteRenderer sprite;
@@ -22,7 +22,7 @@ public class LifePlayer : MonoBehaviour
 
     void Start()
     {
-        life = 6;
+        life = 8;
         inmunity = false;
         cooldownSound = false;
 
