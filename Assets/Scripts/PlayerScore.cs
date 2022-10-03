@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class PlayerScore : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class PlayerScore : MonoBehaviour
     public GameObject songLevel;
     public GameObject songBoss;
     public GameObject deactiveFog;
+    public GameObject winText;
     
 
     private void Awake()
@@ -36,6 +38,7 @@ public class PlayerScore : MonoBehaviour
         timer = 0;
         km = 0;
 
+        slider.maxValue = PlayerScore.instance.bossEnd;
         
     }
 
@@ -69,8 +72,11 @@ public class PlayerScore : MonoBehaviour
        if(timer > bossEnd)
         {
             //demon.SetActive(false);
+            winText.SetActive(true);
             savePlayer.SetActive(false);
-            deactiveFog.SetActive(false);
+            //deactiveFog.SetActive(false);
+
+            StartCoroutine(WinScene());
         }
 
        
@@ -79,11 +85,18 @@ public class PlayerScore : MonoBehaviour
         if(PlayerMovement.instance.isAlive == true)
         {
             timer += Time.deltaTime;
-            slider.value = bossEnd;
+            slider.value = timer;
         }
         else
         {
             timer = 0;
         }
+    }
+
+    IEnumerator WinScene()
+    {
+        yield return new WaitForSeconds(4);
+
+        SceneManager.LoadScene("MENU");
     }
 }
