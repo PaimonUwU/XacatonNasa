@@ -273,6 +273,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollVelocity: {x: 0.05, y: 0}
+  texturas:
+  - {fileID: 2800000, guid: 1c0a196cef28ee24e8f253775eabcc88, type: 3}
+  - {fileID: 2800000, guid: 6f80446640fda234090c8e443c8caf0e, type: 3}
+  - {fileID: 2800000, guid: 7c2f82c7f429eeb46b45415cbc475382, type: 3}
+  - {fileID: 2800000, guid: 2052f7e4d08335b439753ada60de2290, type: 3}
 --- !u!64 &24950946
 MeshCollider:
   m_ObjectHideFlags: 0
