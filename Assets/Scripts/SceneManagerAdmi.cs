@@ -8,6 +8,7 @@ public class SceneManagerAdmi : MonoBehaviour
     public GameObject Panel;
     public void ChangeScene(string SceneName)
     {
+        
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneName);
     }
