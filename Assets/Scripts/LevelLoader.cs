@@ -7,7 +7,14 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
 
-    public float transitionTime = 1f;
+    public float transitionTime = 9f;
+
+    private void Start()
+    {
+        //LoadNextScene();
+        //StartCoroutine(ChangeScene());
+    }
+
     void Update()
     {
         /*
@@ -17,22 +24,14 @@ public class LevelLoader : MonoBehaviour
         }
         */
      
+        
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Holly"))
-        {
-            LoadNextScene();
-            SceneManager.LoadScene("FOREST");
-        }
-    }
-
 
     public void LoadNextScene()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
-        
+
+     
     }
 
     IEnumerator LoadLevel(int levelindex)
@@ -42,6 +41,21 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelindex);
+
+        yield return new WaitForSeconds(4);
+        //StartCoroutine(ChangeScene());
+         SceneManager.LoadScene("GAME");
     }
 
+    IEnumerator ChangeScene()
+    {
+        yield return new WaitForSeconds(6.7f);
+
+        SceneManager.LoadScene("GAME");
+    }
+
+    public void SceneLoader()
+    {
+        SceneManager.LoadScene("GAME");
+    }
 }
