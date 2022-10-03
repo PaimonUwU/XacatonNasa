@@ -32,9 +32,9 @@ public class BurnerManager : MonoBehaviour
         timer += Time.deltaTime;
         timer2 += Time.deltaTime;
 
-        if(limitTimer <= 1.7f)
+        if(limitTimer <= 2.1f)
         {
-            limitTimer = 1.7f;
+            limitTimer = 2.1f;
         }
 
         if(PlayerScore.instance.timer > 20f)
