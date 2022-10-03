@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     public TextMeshProUGUI textBomb;
     private float bombCooldown;
     public GameObject[] iconSprites;
+    public GameObject monkey;
 
     [SerializeField] private TrailRenderer tr;
 
@@ -72,7 +73,8 @@ public class PlayerMovement : MonoBehaviour
             if (bombCooldown <= 0)
             {
                 bombCooldown = 0;
-                textBomb.text = "Boom!";
+                textBomb.text = "SPACE";
+                monkey.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     GameObject prefBomb = Instantiate(bomb, bombPoint.position, Quaternion.identity);
@@ -82,8 +84,14 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
+            if(bombCooldown > 0)
+            {
+                monkey.SetActive(false);
+            }
+
             if(bombCooldown < 29)
             {
+                
                 iconSprites[0].SetActive(true);
             }
             else
